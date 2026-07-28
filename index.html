@@ -85,14 +85,18 @@
         table { border-collapse: collapse; width: 100%; margin: 20px 0; }
         th, td { border: 1px solid var(--border-color); padding: 10px; text-align: left; }
         th { background-color: #2b2d31; }
-        p { font-family:Oswald; backdrop-filter: blur(10px);}
-        li { font-family: Oswald;}
+        p { font-family:Oswald; backdrop-filter: blur(10px); background-color: rgba(255,255,255,0.1); border: 1px solid rgba(255,255,255,0.2); }
+        li { font-family: Oswald; backdrop-filter: blur(10px); background-color: rgba(255,255,255,0.1); border: 1px solid rgba(255,255,255,0.2); }
        @keyframes wave {
            0% {background-position: 0% 50%;}
            50% {background-position: 100% 50%;}
            75% {background-position: 75% 100%;}
            100% {background-position: 20% 85%;}
        }
+        .page.active{
+            background-color: rgba(0,0,0,0.01);
+            align-items: center;
+            
     </style>
 </head>
 <body>
